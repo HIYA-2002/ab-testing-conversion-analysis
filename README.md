@@ -109,3 +109,23 @@ Matplotlib
 Seaborn
 
 Jupyter Notebook
+
+📂 Dataset Description
+
+The dataset contains user-level experimental data collected during an A/B test. Each row represents a single user interaction with the landing page.
+
+Columns included:
+
+UserID – Unique identifier for each user participating in the experiment
+
+Timestamp – Date and time when the user visited the landing page
+
+Group – Experiment assignment (Control or Treatment)
+
+LandingPage – Version of the landing page shown to the user
+
+Converted – Binary outcome variable indicating whether the user converted (1 = Yes, 0 = No)
+
+The primary metric analyzed in this project is conversion rate, calculated as the proportion of users who converted within each experimental group.
+
+Due to file size constraints (~40MB), the full dataset is not included in this repository. The analysis notebook demonstrates all preprocessing and statistical testing steps applied to the dataset.
